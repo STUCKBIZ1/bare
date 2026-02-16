@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Default is "World"
-# Author: Jim Weirich <hassnaouiabdelali89@gmail.com>
-name=${1:-"World"}
-echo "Hello, $name"
+echo "What's your name"
+read my_name
+
+echo "Hello, $my_name"
